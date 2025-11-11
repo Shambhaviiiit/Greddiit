@@ -1,0 +1,250 @@
+.loginBox {
+    /* border-color: rgb(232, 42, 74); */
+    /* border-radius: 24px; */
+    border-style: solid;
+    border-color: black;
+    /* box-shadow: 5px 5px rgb(232, 42, 74); */
+    box-shadow: 5px 5px rgb(151, 148, 148);
+    padding: 12px 12px;
+    margin-top: 5%;
+    box-sizing: border-box;
+
+}
+
+.join {
+    border: none;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(234, 203, 209);
+}
+
+.join:hover {
+    background-color: rgb(232, 42, 74);
+    cursor: pointer;
+}
+
+.outerBox {
+    background-color: rgb(232, 42, 74);
+}
+
+.new_sub_box {
+    background-color: white;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 20px 20px;
+    margin-top: 5%;
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    position: static;
+    z-index: 20;
+}
+
+.sub_heading {
+    background: none;
+    border: none;
+}
+
+.sub_heading:hover {
+    text-decoration: underline;
+}
+
+.entry {
+    /* border-color: rgb(240, 77, 104); */
+    /* border-radius: 8px; */
+    padding: 10px 20px;
+    font-size: large;
+    margin: 1%;
+}
+
+.banned {
+    padding: 4px 4px;
+    margin: none;
+    font-size: medium;
+    width: auto;
+}
+
+.desc {
+    height: 2cm;
+    text-align: top;
+}
+
+.abc {
+    text-align: right;
+}
+
+.profile_page_font {
+    color: rgb(232, 42, 74);
+    font-size: 22px;
+    padding: 10px;
+}
+
+.editable {
+    background-color: rgb(224, 219, 219);
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: large;
+    margin: 1%;
+}
+
+.signin {
+    /* margin: none; */
+    font-size: large;
+    display: block;
+    width: 100%;
+    /* padding-top: 5%; */
+}
+
+.signin:hover {
+    background-color: rgb(232, 42, 74);
+    color: white;
+}
+
+.logout {
+    font-size: large;
+    display: block;
+    border: none;
+    background-color: rgb(232, 42, 74);
+    color: white;
+    bottom: 0%;
+    position: relative;
+}
+
+.logout:hover {
+    background-color: rgb(205, 195, 195);
+    color: black;
+}
+
+.signin_table {
+    /* float: left; */
+    font-size: large;
+    /* display: block; */
+    /* width: 100%; */
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_img {
+    border-radius: 50%;
+    /* display: block; */
+    /* width: 100%; */
+    border: 1px solid;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list_button {
+    border: none;
+    font-size: large;
+    background-color: rgb(223, 217, 217);
+    /* border-radius: 5%; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: block;
+    width: 20%;
+}
+
+.list_button:hover {
+    background-color: rgb(232, 42, 74);
+    color: white;
+}
+
+.popup_button {
+    border: none;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(232, 42, 74);
+}
+
+.popup_button:hover {
+    background-color: rgb(234, 203, 209);
+    cursor: pointer;
+}
+
+.banned_button {
+    background: none;
+    border: solid;
+    border-color: grey;
+    border-width: 2px;
+    padding: 2px 8px;
+}
+
+.banned_button:hover {
+    cursor: pointer;
+}
+
+.searchbar{
+    background-color: white;
+    padding-left: 1%;
+}
+
+.post-font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+}
+
+.image-class{
+    width:40%;
+    padding-left:10%;
+    /* background-image: 'url(https://unsplash.it/150/200?image=${props.num})'; */
+}
+
+.heading{
+    font-size: 80px;
+    font-weight: bolder;
+    vertical-align: bottom;
+    margin-right:none;
+}
+
+.dropdown{
+    padding:3%;
+}
+
+.margining{
+    width: 50%;
+}
+
+.margining-2{
+    padding-left: 10%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

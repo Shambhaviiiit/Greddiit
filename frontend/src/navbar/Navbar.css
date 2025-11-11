@@ -1,0 +1,46 @@
+.bar {
+    background-color: rgb(38, 36, 37);
+    display:flex;
+    height: 60px;
+}
+
+.nav_button {
+    border: none;
+    background-color: rgb(38, 36, 37);
+    /* background-color: rgb(232,42,74); */
+    color: white;
+    font-size: large;
+    padding: 1.5%;
+    border-bottom: solid;
+    border-bottom-color: rgb(38, 36, 37)
+}
+
+.nav_button:hover {
+    /* background-color: rgb(224, 214, 214); */
+    border-bottom: solid;
+    border-bottom-color: rgb(232,42,74);
+    /* color: black; */
+    cursor: pointer;
+}
+
+.back_button { 
+    background-color: rgb(232,42,74);
+    border-bottom: none;
+}
+
+.logo {
+    background-color: white;
+    padding:0.5%;
+
+}
+
+.logo_2 {
+    background-color: white;
+    height: fit-content;
+    /* vertical-align: center; */
+    /* font-size: xx-large; */
+}
+
+#subs {
+    border-bottom-color: rgb(232,42,74);
+}

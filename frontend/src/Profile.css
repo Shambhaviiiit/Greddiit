@@ -1,0 +1,19 @@
+.Profile_outer{
+    background-color: rgb(38, 36, 37);
+    color: white;
+}
+
+.icon_button {
+    background: none;
+    border:none;
+}
+
+.icon_button:hover{
+    cursor:pointer;
+}
+
+.follow_list:hover {
+    background-color:rgb(223, 217, 217);
+    color:black;
+    cursor:default;
+}
