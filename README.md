@@ -1,7 +1,6 @@
-# DASS Assignment-1
+# GREDDIT
 
-### Important points regarding testing for the assignment:
-
+<!-- ## Notes for evaluation:
 
 - Unique field for signup is email id
 - During signup, if password and confirm passwords donot match, then user will not be registered
@@ -9,4 +8,4 @@
 - Username and password are not editable for an account
 - Image uploaded for a subgreddiit is random
 - A user can upvote or downvote a post any number of times
-- Navbar in a subgreddiit page has home button to go to previous page instead of the entire previous navbar
+- Navbar in a subgreddiit page has home button to go to previous page instead of the entire previous navbar -->
